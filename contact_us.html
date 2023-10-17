@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Us</title>
+	</head>
+	<body>
+		<a href="./index.html">Home</a>
+		<a href="./about_us.html">About Us</a>
+		<a href="./contact_us.html">Contact Us</a>
+
+		<h1>Contact Us</h1>
+		<hr />
+
+		<h2>Locations</h2>
+		<table>
+			<tr>
+				<th>Logo</th>
+				<th>Location</th>
+				<th>Opening Hours</th>
+				<th>Email Address</th>
+				<th>Phone Number</th>
+			</tr>
+			<tr>
+				<td>
+					<img src="./images/horse-logo.jpg" width="75" alt="horse" />
+				</td>
+				<td>Mandeville</td>
+				<td>9AM - 5PM</td>
+				<td>mandeville@preservation.com</td>
+				<td>(817)546-2389</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="./images/sun-logo.jpg" width="75" alt="sun" />
+				</td>
+				<td>Kingston</td>
+				<td>9AM - 5PM</td>
+				<td>kingston@preservation.com</td>
+				<td>(817)534-2389</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="./images/m-logo.jpg" width="75" alt="m" />
+				</td>
+				<td>Montego Bay</td>
+				<td>9AM - 5PM</td>
+				<td>montegobay@preservation.com</td>
+				<td>(817)546-8789</td>
+			</tr>
+		</table>
+
+		<h2>General Inquiries</h2>
+		<form action="./confirmation.html">
+			<label for="fullname">Name: *</label><br />
+			<input required type="text" id="fullname" name="fullname" />
+			<br /><br />
+			<label for="email">Email: *</label><br />
+			<input required type="email" id="email" name="email" />
+			<br /><br />
+			<label for="">Are you Employed: </label><br />
+			<input type="radio" value="Y" name="employed" /> Yes
+			<input type="radio" value="N" name="employed" /> No <br /><br />
+			<label for="inquiry">State your inquiry: *</label>
+			<br />
+			<textarea required name="inquiry" id="inquiry" cols="30" rows="10"></textarea>
+			<br /><br />
+			<input type="submit" />
+		</form>
+	</body>
+</html>
